@@ -1,0 +1,853 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px!important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(white, rgb(0, 55, 255));
+    border-radius: 50px!important; /* Puoi utilizzare il valore specifico per arrotondare gli angoli della thumb */
+  }
+  
+  /* Stile della track (sfondo della scrollbar) */
+::-webkit-scrollbar-track {
+    border-radius: 50px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    width: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.cont {
+    background-color: black;
+}
+
+.sfondoPag {
+    width: 100%;
+}
+
+.imgImp {
+    width: 100%!important;
+}
+
+.titCentro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -40%;
+    margin-bottom: 30%;
+}
+
+.testoImp {
+    color: white;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 50px;
+    border-radius: 0 50px 0 50px;
+}
+
+.titoloImp {
+    font-size: 80px;
+}
+
+.subtitoloImp {
+    font-size: 40px;
+}
+
+/* Navbar */
+
+.menuButton {
+    background-color: black!important;
+}
+
+.menu {
+   color: white;
+   margin-top: 15px;
+   font-size: 30px;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+}
+
+.back {
+    background-color: black;
+    height: 100%!important;
+}
+
+buttonM {
+    background-color: black!important;
+}
+
+buttonM:hover {
+    border-radius: 50px;
+    transition: 2s!important;
+}
+
+buttonM:not(:hover) {
+    border-radius: 0px;
+    transition: 2s!important;
+}
+
+.margin {
+    margin-top: 200px!important;
+}
+
+.menu:hover {
+    color: black!important;
+    transition: 1s ease!important;
+}
+
+.navbar-toggler {
+    margin-top: 10px;
+}
+
+.navbar-toggler:hover {
+    background-color: white!important;
+    transition: 1s;
+}
+
+.titolo {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+nav {
+    position: fixed!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    background: transparent;
+    z-index: 100!important;
+    transition: 1s;
+}
+
+nav.dark {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(0, 55, 255)!important;
+}
+
+.navB {
+    height: 80px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 5px!important;
+}
+
+.selezione {
+    font-weight: bold!important;
+}
+
+.text {
+    color: white;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 40px;
+    font-size: 15px;
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.activetext {
+    color: white;
+    width:  170px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: underline rgba(255, 255, 255, 0.389) 2px!important;
+}
+
+.activetext:hover {
+    color: white;
+    transition: 1s;
+    text-decoration: underline white 2px!important;
+}
+
+.Link {
+    margin-right: 22%;
+}
+
+.navbar-toggler {
+    margin-top: 10px;
+}
+
+.navbar-toggler:hover {
+    background-color: white!important;
+    transition: 1s;
+}
+
+buttonNav {
+    font-size: 15px;
+    color: #e1e1e1;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    margin-left: 30px!important;
+    margin-right: 30px!important;
+}
+
+buttonNav:focus,
+buttonNav:hover {
+    color: #fff;
+}
+
+buttonNav:focus:after,
+buttonNav:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+buttonNav:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+.logoPCTO {
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    width: 12%;
+}
+
+.sfondoPCTO {
+    background: rgba(0, 0, 0, 0,5)!important;
+}
+
+.spazioSopra {
+    margin-top: 1150px;
+}
+
+/* Argomenti */
+
+.titoloArg {
+    font-size: 30px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.sottoTitoloArg {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+hr {
+    background-color: rgb(0, 55, 255);
+    height: 4px!important;
+    width: 5%;
+}
+
+.testoArg {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.maggInfo {
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active svg {
+    transform: scale(0.9);
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.titInfo {
+    font-weight: bold;
+    color: black;
+}
+
+.testoInfo {
+    font-weight: bold;
+    color: rgb(117, 114, 114);
+}
+
+.blocco {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.sfondoImmEdi {
+    background-color: black;
+    width: 60%;
+    border-radius: 50px;
+    margin-left: 1%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.immEdi {
+    width: 80%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.info2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.info3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none!important;
+    text-transform: none;
+}
+
+.row-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center!important;
+	align-items: center!important;
+}
+
+.contatti .info .email,
+.contatti .info .phone,
+.contatti .info .address{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center!important;
+}
+
+.col-info{
+	display: flex;
+	flex-direction: column;
+	justify-content:center!important;
+	align-items: center!important;
+}
+
+.col-info i{
+	font-size: 50px!important;
+    color: rgb(0, 55, 255);
+}
+
+.bloccoDestro {
+    width: 50%;
+}
+
+.bloccoCard {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.e-card {
+    margin: 100px auto;
+    background: transparent;
+    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    position: relative;
+    width: 360px;
+    height: 450px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.e-card:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+.e-card:not(:hover) {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+.wave {
+    position: absolute;
+    width: 540px;
+    height: 700px;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    margin-left: -50%;
+    margin-top: -70%;
+    background: linear-gradient(744deg,#40d2ff,#002fff 60%,#0d0086);
+}
+
+.iconT {
+    width: 60%!important;
+    margin-top: -3em;
+    padding-bottom: 1em;
+}
+
+.icon3 {
+    width: 50%!important;
+    margin-top: -3em;
+    padding-bottom: 1em;
+}
+
+.iconP {
+    width: 50%!important;
+    margin-top: -3em;
+    padding-bottom: 1em;
+}
+
+.cardTextT {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+
+.cardText3 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: -0.5rem;
+}
+
+.cardTextP {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: -0.5rem;
+}
+
+.infotop {
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 5.6em;
+    left: 0;
+    right: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+    top: 210px;
+}
+
+.playing .wave {
+    border-radius: 40%;
+    animation: wave 3000ms infinite linear;
+}
+
+.wave {
+    border-radius: 40%;
+    animation: wave 55s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+    animation-duration: 4000ms;
+}
+
+.wave:nth-child(2) {
+    animation-duration: 50s;
+}
+
+.playing .wave:nth-child(3) {
+    animation-duration: 5000ms;
+}
+
+.wave:nth-child(3) {
+    animation-duration: 45s;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.titoloPer {
+    font-size: 30px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-left: 5%;
+}
+
+.testoPer {
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imgTeam {
+    width: 60%;
+    border-radius: 20px;
+} 
+
+.bloccoSx, .bloccoDx {
+    width: 50%;
+}
+
+.bloccoDx {
+    text-align: center;
+}
+
+.cards {
+    position: relative;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    border-radius: 20px!important;
+    transition: all .5s ease-out;
+    overflow: hidden;
+    transform: translateX(0px) translateY(0px) perspective(905px) rotateX(0deg) rotateY(0deg) rotateZ(-8deg);
+  }
+  
+  .card.one {
+    top: -100px;
+    left: 30%;
+    background-image: url('../img/ScacchieraAperta.jpg');
+    background-size: 101%;
+  }
+  
+  .card.two {
+    top: 0px;
+    left: -98%;
+    background-image: url('../img/ScacchieraChiusa.jpg');
+    background-size: 101%;
+  }
+  
+  .card.three {
+    top: -370px;
+    left: -34%;
+    background-image: url('../img/ScacchieraPedine.jpg');
+    background-size: 101%;
+  }
+
+  .card.four {
+    top: -740px;
+    left: 30%;
+    background-image: url('../img/Pedine.jpg');
+    background-size: 101%;
+  }
+  
+  .card:hover {
+    z-index: 4;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) !important;
+    transition: all .5s ease-out;
+  }
+  
+  .cardDetails {
+    width: 55%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: rgba(0,0,0,0.8);
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+  }
+  
+  .card:hover .cardDetails {
+    transform: perspective(2000px) rotateY(0deg);
+  }
+  
+  .cardDetailsHaeder {
+    font-weight: 600;
+    color: #edb899;
+  }
+  
+  .cardDetailsButton {
+    padding: 3px 6px;
+    border-radius: 25px;
+    background-color: #edb899;
+    color: #000;
+    font-weight: 600;
+  }
+
+.imgPedine {
+    width: 50%;
+}
+
+.spTop {
+    margin-top: -700px;
+}
+
+.imgPhp {
+    width: 90%;
+    border-radius: 20px;
+} 
+
+.spazioF1 {
+    background-color: black;
+    height: 10px;
+    margin-bottom: 5px;
+    margin-top: 100px;
+}
+
+.spazioF2 {
+    background-color: black;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.spazioF3 {
+    background-color: black;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.spazioF4 {
+    background-color: black;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.imgLogo {
+    width: 30%;
+}
+
+.logoPK {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.testoLogo {
+    font-size: 15px;
+    font-family: fantasy;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.logoDenina {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.deninaLogo {
+    width: 30%;
+    margin-top: 50px;
+}
+
+.trovi {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 190px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 0em;
+    fill: #cc39a4;
+  }
+  
+  .card3 {
+    width: 190px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .github {
+    margin-top: -.6em;
+    margin-left: 0em;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card2:hover .twitter {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .card3:hover .github {
+    fill: white;
+  }
+
+.infoDiv {
+    width: 100%!important;
+}
